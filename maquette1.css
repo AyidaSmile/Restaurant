@@ -155,7 +155,7 @@
 #first-small-burger{
     border-radius: 8px;
 }
-#burg1-a{
+#burg-one-title{
     position: absolute;
     font-size: 25px;
     font-family:'bebas neue';
@@ -163,7 +163,7 @@
     margin-left: 19px;
     margin-top: 15px;
 }
-#burg1-b{
+#burg-one-first-writing{
     position: absolute;
     font-family:'bebas neue';
     color: white;
@@ -171,7 +171,7 @@
     margin-left: 20px;
     margin-top: 40px;
 }
-#burg1-c{
+#burg-one-second-writing{
     position: absolute;
     font-family:'bebas neue';
     color: white;
@@ -185,7 +185,7 @@
 #second-small-burger{
     border-radius: 8px;
 }
-#burg2-a{
+#burg-two-first-writing{
     position: absolute;
     font-size: 25px;
     font-family:'bebas neue';
@@ -193,7 +193,7 @@
     margin-left: 19px;
     margin-top: 25px;
 }
-#burg2-b{
+#burg-two-second-writing{
     position: absolute;
     font-family:'bebas neue';
     color: white;
@@ -208,7 +208,7 @@
     margin: auto;
     text-align: center;
 }
-#ecriture-jaune{
+#square-three-simple-title{
     background-color:#fec047 ;
     color: #3c2513;
     font-size: 27px;
@@ -217,7 +217,7 @@
     margin-top: 55px;
     display: inline-block;
 }
-#ecriture-gras{
+#square-three-bold-title{
     font-weight: bold;
     font-family:'Alfa Slab One' ;
     color: #3c2513;
@@ -225,13 +225,13 @@
     font-size: 50px;
     color: #3c2513;
 }
-#ecriture-ligne1{
+#square-three-first-lorem{
     margin-top: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
     color: #412a18;
 }
-#ecriture-ligne2{
+#square-three-second-lorem{
     color:#412a18;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 10px;
@@ -244,7 +244,7 @@
     margin-left: -5px;
 
 }
-.square4{
+.square-four{
     display: flex;
     width: 100%;
     height: 600px;
@@ -257,7 +257,7 @@
     font-family: 'bebas neue';
     color:#3c2513 ;
 }
-.square4-first-div{
+.square-four-first-div{
     font-size: 21px; 
     margin-top: 40px;
     width: 450px;
@@ -265,14 +265,14 @@
     text-align: center;
 
 }
-.square4-second-div{
+.square-four-second-div{
     text-align: center;
     margin-top: 0px;
     width: 450px;
     color: #0f1111;
     text-align: center;
  }
- .square4-third-div{
+ .square-four-third-div{
     text-align: center;
     font-size: 21px; 
     margin-top: 40px;
@@ -285,13 +285,13 @@
 #img{
    width: 450px;
 }
-#square4-title{
+#square-four-title{
    font-family: 'bebas neue';
    color: #382306;
    font-weight: bold;
    font-size: 30px;
 }
-#square4-lorem{
+#square-four-lorem{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #382306;
     font-size: 21px;
@@ -313,7 +313,7 @@
     box-shadow: 6px 9px 12px 2px rgb(222, 212, 221);
    
 }
-#square4-button button{
+#square-four-button button{
     margin-top: 40px;
     padding: 9px 30px;
     border: none;
