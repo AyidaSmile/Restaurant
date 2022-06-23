@@ -1,5 +1,5 @@
  .square-one{
-    background-image: url(./background.png) ;
+    background-image: url(././/Restaurant/background.png) ;
     margin: auto;
     width: 100%;
     height: 100%;
@@ -201,7 +201,7 @@
     margin-left: 20px;
     margin-top: 50px;
 }
-.square3{
+.square-three{
     height: 320px;
     margin-left: 300px;
    width: 100%;
@@ -244,7 +244,7 @@
     margin-left: -5px;
 
 }
-.square5{
+.square4{
     display: flex;
     width: 100%;
     height: 600px;
@@ -257,7 +257,7 @@
     font-family: 'bebas neue';
     color:#3c2513 ;
 }
-.square5-first-div{
+.square4-first-div{
     font-size: 21px; 
     margin-top: 40px;
     width: 450px;
@@ -265,14 +265,14 @@
     text-align: center;
 
 }
-.square5-second-div{
+.square4-second-div{
     text-align: center;
     margin-top: 0px;
     width: 450px;
     color: #0f1111;
     text-align: center;
  }
- .square5-third-div{
+ .square4-third-div{
     text-align: center;
     font-size: 21px; 
     margin-top: 40px;
@@ -285,18 +285,18 @@
 #img{
    width: 450px;
 }
-#square5-title{
+#square4-title{
    font-family: 'bebas neue';
    color: #382306;
    font-weight: bold;
    font-size: 30px;
 }
-#square5-lorem{
+#square4-lorem{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #382306;
     font-size: 21px;
 }
-.square6{
+.square5{
     margin: auto;
     width: 100%;
     margin-top: 90px;
@@ -313,7 +313,7 @@
     box-shadow: 6px 9px 12px 2px rgb(222, 212, 221);
    
 }
-#square5-button button{
+#square4-button button{
     margin-top: 40px;
     padding: 9px 30px;
     border: none;
@@ -405,7 +405,7 @@
 .img{
     display: inline-block;
 }
-.square7{
+.square6{
     margin: auto;
     width: 100%;
     padding-bottom: 127px;
@@ -483,7 +483,6 @@ input{
     border-radius: 4px;
     font-family: 'Alfa Slab One';
     color:white;
-    font-weight: bold;
     border: none;
     background-color: red;
     margin-left: 10px;
@@ -512,7 +511,7 @@ input{
     position: absolute;
     margin-top: -250px;
 }
-.square8{
+.square7{
     margin: auto;
     padding-bottom: 65px;
     width: 1380px;
