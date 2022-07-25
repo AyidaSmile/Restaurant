@@ -1,6 +1,10 @@
+.whole-contener{
+   width: 100%;
+   margin: 0;
+   padding: 0;
+ }
  .square-one{
     background-image: url(././/Restaurant/background.png) ;
-    margin: auto;
     width: 100%;
     height: 100%;
     padding: 0px 0px 170px 0px;
@@ -155,7 +159,7 @@
 #first-small-burger{
     border-radius: 8px;
 }
-#burg1-a{
+#burg-one-title{
     position: absolute;
     font-size: 25px;
     font-family:'bebas neue';
@@ -163,7 +167,7 @@
     margin-left: 19px;
     margin-top: 15px;
 }
-#burg1-b{
+#burg-one-first-writing{
     position: absolute;
     font-family:'bebas neue';
     color: white;
@@ -171,7 +175,7 @@
     margin-left: 20px;
     margin-top: 40px;
 }
-#burg1-c{
+#burg-one-second-writing{
     position: absolute;
     font-family:'bebas neue';
     color: white;
@@ -183,9 +187,10 @@
     position: relative;
 }
 #second-small-burger{
+    margin-top: 20px;
     border-radius: 8px;
 }
-#burg2-a{
+#burg-two-first-writing{
     position: absolute;
     font-size: 25px;
     font-family:'bebas neue';
@@ -193,7 +198,7 @@
     margin-left: 19px;
     margin-top: 25px;
 }
-#burg2-b{
+#burg-two-second-writing{
     position: absolute;
     font-family:'bebas neue';
     color: white;
@@ -208,7 +213,7 @@
     margin: auto;
     text-align: center;
 }
-#ecriture-jaune{
+#square-three-simple-title{
     background-color:#fec047 ;
     color: #3c2513;
     font-size: 27px;
@@ -217,7 +222,7 @@
     margin-top: 55px;
     display: inline-block;
 }
-#ecriture-gras{
+#square-three-bold-title{
     font-weight: bold;
     font-family:'Alfa Slab One' ;
     color: #3c2513;
@@ -225,17 +230,13 @@
     font-size: 50px;
     color: #3c2513;
 }
-#ecriture-ligne1{
+#square-three-lorem{
     margin-top: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
+    margin: auto;
+    width: 1050px;
     color: #412a18;
-}
-#ecriture-ligne2{
-    color:#412a18;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 10px;
-    font-size: 18px;
 }
 #img1{
     margin-right: 10px;
@@ -244,7 +245,7 @@
     margin-left: -5px;
 
 }
-.square4{
+.square-four{
     display: flex;
     width: 100%;
     height: 600px;
@@ -257,63 +258,42 @@
     font-family: 'bebas neue';
     color:#3c2513 ;
 }
-.square4-first-div{
+.square-four-first-div{
     font-size: 21px; 
     margin-top: 40px;
     width: 450px;
     color: #0f1111;
     text-align: center;
-
 }
-.square4-second-div{
+.square-four-second-div{
     text-align: center;
     margin-top: 0px;
     width: 450px;
     color: #0f1111;
     text-align: center;
  }
- .square4-third-div{
+ .square-four-third-div{
     text-align: center;
     font-size: 21px; 
     margin-top: 40px;
     width: 450px;
     color: #0f1111;
  }
- #img2{
+ #square-four-img{
     width: 450px;
  }
-#img{
-   width: 450px;
-}
-#square4-title{
+#square-four-title{
    font-family: 'bebas neue';
    color: #382306;
    font-weight: bold;
    font-size: 30px;
 }
-#square4-lorem{
+#square-four-lorem{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #382306;
     font-size: 21px;
 }
-.square5{
-    margin: auto;
-    width: 100%;
-    margin-top: 90px;
-    text-align: center;
-   
-}
-.carré{
-    background-color:white;
-    margin-left: 70px;
-    width: 1240px;
-    height: 470px;
-    display: flex;
-    justify-content: center;
-    box-shadow: 6px 9px 12px 2px rgb(222, 212, 221);
-   
-}
-#square4-button button{
+#square-four-button button{
     margin-top: 40px;
     padding: 9px 30px;
     border: none;
@@ -322,29 +302,37 @@
    font-family: 'Alfa Slab One';
     background-color: red;
 }
-.imgz{
-    margin-top: 25px;
-    margin-right: 250px;
-    margin-left: 70px;
+.square-five{
+    margin: auto;
+    width: 100%;
+    margin-top: -20px;
+    text-align: center;
 }
-.discover{
-    margin-top: 45px;
-    padding: 0px 60px;
-    margin-right: -350px;
-    margin-left: -185px;
+.square-five-container{
+    background-color:white;
+    width: 90%;
+    height: 470px;
+    margin: auto;
+    display: flex;
+    box-shadow: 6px 9px 12px 2px rgb(222, 212, 221);
+}
+.square-five-first-img{
+    margin-top: 25px;
 }
 #DISCOVER{
     color: #3c2513;
-    font-size: 29px;
+    font-size: 22px;
+    float: left;
+    margin-top: -100;
+    margin-left: 60px;
     font-family: 'bebas neue';
-    margin-right: 265px;
 }
-.three-smal-circles{
+.three-small-circles{
     width: 60px;
+    margin-top: 90px;
+    margin-left: 60px;
     display: flex;
     justify-content: space-between;
-    margin-top: 70px;
-    margin-left: 447px;
 }
 #three-first-small-circle{
     width: 10px;
@@ -364,199 +352,150 @@
     padding: 7px 2px;
     background-color: #cdcdcd;
 }
+.discover-upcoming-container{
+    height: 600px;
+    width: 600px;
+}
 #upcoming{
     font-weight: bold;
     color: #3c2513;
+    text-align: justify;
     font-family:'Alfa Slab One';
     width: 600px;
-    margin-left: 375px;
-    margin-right: 278px;
-    font-size: 39px;
+    margin-top: -80px;
+    font-size: 2.8em;
+    float: left;
+    margin-left: 60px;
 }
-#adipisc{
-    margin-top: 10px;
-    margin-left: 140px;
-    font-size: 25px;
+.square-five-lorem{
+    width: 500px;
+    margin-top: 150px;
+    line-height: 35px;
+    margin-left: 60px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 21px;
 }
-#incididunt{
-    margin-top: 10px;
-    font-size: 25px;
-    margin-left: 95px;
-
-}
-#labore{
-    margin-top: 10px;
-    font-size: 25px;
-    margin-left: 124px;
-}
-#pendise{
-    margin-top: 10px;
-    margin-left: 142px;
-    font-size: 25px;
-}
-#maecenas{
-    margin-top: 10px;
-    margin-left: 35px;
-    font-size: 26px;
-}
-.discover{
-    display: inline-block;
-}
-.img{
-    display: inline-block;
-}
-.square6{
+.square-six{
     margin: auto;
     width: 100%;
-    padding-bottom: 127px;
-    margin-top: 50px;
+    margin-top: 90px;
     text-align: center;
-   
 }
-#Burg{
-    margin-right: 1075px;
-    position: relative;
-    margin-left: -108px;
+h2{
+ margin-left: 70px;
+ color: #3a1f0a;
+font-family: 'bebas neue';
 }
-#reservation{
-    margin: auto;
-    color: #3c2513;
-    font-size: 30px;
-    font-family: 'bebas neue';
-    margin-top: 70px;
-    position: absolute;
-    margin-left: -600px;
-}
-#BOOK{
+#book-your-table-container h1{
     font-size: 50px;
     color: #3c2513;
-    margin-top: -90px;
-    margin-bottom: 150px;
+    position: relative;
+    margin-top: -20px;
+    margin-bottom: 40px;
     font-weight: bold;
     margin-left: 95px;
     font-family:'Alfa Slab One';
 }
 .form{
-    margin-top: -100px;
-    margin-left: -72px;
-}
-#name{
-    margin-right: 10px;
-    font-size: 20px;
-    font-family: 'bebas neue';
-    color:black;
-    margin-bottom: 25px;
-    margin-left: 170px;
-    padding: 23px 180px 14px 20px;
-}
-#email{
-    margin-right: 70px;
-    font-size: 20px;
-    font-family: 'bebas neue';
-    color:black;
-    margin-left: 10px;
-    padding: 23px 180px 14px 20px;
-
-}
-#date{
-    margin-right: 10px;
-    font-size: 20px;
-    font-family: 'bebas neue';
-    color:black;
-    margin-left: 170px;
-    padding: 23px 180px 14px 20px;
-}
-#time{
-    font-size: 20px;
-    font-family: 'bebas neue';
-    color:black;
-    margin-right: 70px;
-    margin-left: 10px;
-    padding: 23px 180px 14px 20px;
+ margin: auto;
+ margin-left: 50px;
 }
 input{
+    color:black;
+    padding: 20px 180px 12px 20px;
+    font-size: 20px;
+    margin-right: 15px;
+    margin-top: 24px;
+    font-family: 'bebas neue';
     border-radius: 4px;
 }
 .button1{
-    margin-right: 85px;
     font-size: 20px;
     border-radius: 4px;
     font-family: 'Alfa Slab One';
     color:white;
+    margin-right: 15px;
     border: none;
+    margin-top: -64px;
+    padding: 18px 117px;
     background-color: red;
-    margin-left: 10px;
-    padding: 21px 178px 14px 35px;
 }
-#people{
-    margin-right: 10px;
-    font-size: 20px;
-    font-family: 'bebas neue';
-    color:black;
-    margin-left: 200px;
-    padding: 23px 180px 14px 20px;
-}
-.people-button{
-    margin-top: 25px;
-    position: relative;
-    margin-right: 10px;
-    margin-bottom: -50px;
-}
-#bottle{
-    margin-top: -270px;
-    margin-right: 940px;
-}
-#plat img{
-    margin-left: 468px;
+.burg{
+    height: 180px;
+    margin-top: -50px;
     position: absolute;
-    margin-top: -250px;
+    border-radius: 50%;
+    width: 180px;
 }
-.square7{
+.burg img{
+    float: left;
+    height: 180px;
+    margin-left: -10px;
+}
+.plat-botle-container{
+    margin-top: -150px;
+    height: 200px;
+}
+.botle img{
+    margin-top: -90px;
+    height:240px;
+    margin-left: 150px;
+    float: left;
+}
+.plat img{
+    height:320px;
     margin: auto;
-    padding-bottom: 65px;
-    width: 1380px;
-    text-align: center;
-    
 }
+.plat{
+    width: 215px;
+    height: 330px;
+    float: right;
+    margin-bottom: -10px;
+    margin-top: -60px;
+    overflow: hidden;
+}
+.square-seven{
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 65px;
+    width: 100%;
+    text-align: center;}
 #last-images{
-    margin-top: 150px;
+    margin-top: 250px;
     width: 1050px;
     position: relative;
 }
-#ligne1{
+
+#square-seven-restaurant-logo{
     color: white;
     position: absolute;
     margin-top: 85px;
-    margin-left: 95px;
+    margin-left: 45px;
 }
-#ligne2{
+#burger-house{
     position: absolute;
     font-family: 'bebas neue';
     font-size: 60px;
     margin-top: 98px;
-    margin-left: 220px;
+    margin-left: 170px;
     color: white;
-
 }
-#ligne3{
+#square-seven-lorem{
     color:#fffcfd;
+    text-align: left;
     position: absolute;
     font-size: 20px;
+    width: 560px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 214px;
-    margin-left: 100px;
+    margin-left: 50px;
 }
-#eiusmod{
-    margin-right: 22px;
-}
-#ra{
-    margin-right: 170px;
-
-}
-#ligne4{
+#Restaurant-email{
     position: absolute;
     margin-top: 287px;
     margin-left: 913px;}
-#info{
+#info-company-name{
     margin-left: 38px;
     position: absolute;
     margin-right: -300px;
@@ -564,15 +503,15 @@ input{
     font-family: 'bebas neue';
     color: white;
 }
-#ligne5{
+#company-copyright{
     position: absolute;
     margin-top: 460px;
     color:white ;
     font-size: 16px;
     font-family: 'bebas neue';
-    margin-left: 100px;
+    margin-left: 50px;
 }
-#ligne6{
+#social-links{
         display: flex;
         justify-content:space-between ;
         margin-left: 1130px;
@@ -581,13 +520,15 @@ input{
         position: absolute;
         margin-top: 450px;
 }
-#ligne7{
+#social-links a img{
+height: 30px;
+}
+#Restaurant-localisation{
     position: absolute;
     margin-top: 235px;
     margin-left: 913px;
 }
-
-#main{
+#main-road-building-name-country{
     margin-left: -5px;
     width: 300px;
     position: absolute;
@@ -595,16 +536,4 @@ input{
     margin-bottom:100px;
     font-size: 20px;
     font-family:'bebas neue';
-}
-
-ul{
-    list-style: none;
-    color:#3d2a00 ;
-    font-family: 'bebas neue';
-    margin-top: 15px;
-    padding: 0px 180px;
-    margin-left: 515px;
-    display: inline-flex;
-    width: 275px;
-    justify-content: space-between;
 }
